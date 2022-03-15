@@ -21,10 +21,10 @@ body {
     align-items: center;
 }
 
-.header-logo img {
-    width: 84px;
-    height: 84px;
-    margin-right: auto
+.header-logo {
+    margin-right: auto;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .header-links {
@@ -62,6 +62,20 @@ body {
     font-family: 'Roboto', arial;
     opacity: 0.7;
 }
+
+.hero-image {
+    flex-basis: 400px;
+    height: 231px;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+}
+
+.image-box { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
 
 h1 {
     font-size: 48px;
@@ -142,22 +156,38 @@ h1 {
     padding: 10px 80px;
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: 5px;
     border-color: none;
 }
 
-.sign-item {
+.sign-items {
     flex: 1;
 }
 
-.signs-text {
+.sign-text {
     text-align: left;
 }
 
-.signt-text p {
+.sign-text p {
     color: #fff;
     opacity: 0.7;
     margin: 5px 30px 30px 50px;
+}
+
+.sign-up button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #FFF;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 h3 {
@@ -167,15 +197,7 @@ h3 {
     margin: 30px 0px 0px 50px;
 }
 
-.signs-button button {
-    color: #fff;
-    font-family: 'Roboto', arial;
-    border-color: #fff;
-    border-radius: 8px;
-    background-color: #3882f6;
-    padding: 5px 25px;
-    font-size: 15px;
-}
+
 
 /* Footer */
 
